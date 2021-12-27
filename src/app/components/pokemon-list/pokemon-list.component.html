@@ -1,0 +1,15 @@
+<!-- <h3>Meus Pokemons</h3>
+ -->
+<!-- <app-card *ngFor="let cadaPokemon of pokemons"></app-card>
+ -->
+<!-- <div *ngFor="let qtdPokemon of pokemons">
+    {{ pokemons }}
+</div>   -->
+
+<!-- <app-card *ngFor="let cadaPokemon of pokemonService.pokemons; index as i" [pokemon]="cadaPokemon" [numero]="i + 1"></app-card>
+ -->
+
+<div class="row d-flex justify-content-center">
+    <app-card class="col-lg-2 col-md-3 col-sm-4 ms-2" *ngFor="let cadaPokemon of pokemons; index as i" [pokemon]="cadaPokemon" [numero]="i + 1">
+    </app-card>
+</div>
