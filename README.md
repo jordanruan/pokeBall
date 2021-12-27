@@ -27,7 +27,6 @@ Desafio de proposto pela <strong>Soul Code</strong>, EDTECH brasileira com <i>in
 
 <ol>
 <li>git clone</li>
-<li>npm init -y</li>
 <li>npm install</li>
 </ol>
 
